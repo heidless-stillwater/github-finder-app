@@ -11,7 +11,9 @@ docker image build -t github-finder-app:latest .
 docker run -p 3000:3000 -e=PORT=3000 github-finder-app
 
 # deploy gCloud
-gcloud builds submit --tag gcr.io/heidless-pfolio-deploy-5/github-finder-app  .
+gcloud builds submit --tag gcr.io/heidless-pfolio-deploy-5/github-finder-app-111  .
+
+
 
 
 # vercel install
